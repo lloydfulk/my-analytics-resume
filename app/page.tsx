@@ -112,7 +112,7 @@ export default function Home() {
             <div className="space-y-4">
               <h3 className="text-sm font-semibold uppercase tracking-widest text-slate-500">Backend & Infrastructure</h3>
               <div className="flex flex-wrap gap-2">
-                {['Node.js', 'PostgreSQL', 'Cloudflare Workers', 'Docker', 'Vercel'].map((skill) => (
+                {['Node.js', 'PostgreSQL', 'Cloudflare Workers', 'Docker', 'Vercel', 'Git'].map((skill) => (
                   <span 
                     key={skill}
                     className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-sm text-slate-300 hover:border-purple-500/50 hover:text-purple-400 transition-all cursor-default"
@@ -133,7 +133,7 @@ export default function Home() {
             {/* Database / Software Exposure Category */}
             <div className="space-y-4">
               <div className="flex flex-wrap gap-2">
-                {['AutoCAD', 'Revit', 'Photoshop/GIMP', 'PowerApps', 'SharePoint', 'OneStream', 'TRIRIGA', 'BUILDER SMS'].map((skill) => (
+                {['AutoCAD', 'Revit', 'Photoshop/GIMP', 'PowerApps', 'SharePoint', 'OneStream', 'TRIRIGA', 'BUILDER SMS', 'RStudio/Connect', 'Positron'].map((skill) => (
                   <span
                     key={skill}
                     className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-sm text-slate-300 hover:border-green-500/50 hover:text-green-400 transition-all cursor-default"
